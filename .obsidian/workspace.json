@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "67039999/Homework 67039999.md",
+                "file": "Week-03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Homework 67039999"
+              "title": "Week-03"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "67039999/Homework 67039999.md",
+                "file": "Week-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Homework 67039999"
+              "title": "Backlinks for Week-03"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "67039999/Homework 67039999.md",
+                "file": "Week-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Homework 67039999"
+              "title": "Outgoing links from Week-03"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "67039999/Homework 67039999.md",
+                "file": "Week-03.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Homework 67039999"
+              "title": "Outline of Week-03"
             }
           },
           {
@@ -196,8 +196,8 @@
   },
   "active": "93ee13b7ff09c935",
   "lastOpenFiles": [
-    "Week-03.md",
     "67039999/Homework 67039999.md",
+    "Week-03.md",
     "67039999",
     "Week-03-03-Physical to Electrical to Digital.md",
     "Week-03-02-Digital-World.md",
