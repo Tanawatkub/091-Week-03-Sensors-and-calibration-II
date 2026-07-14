@@ -1,0 +1,6 @@
+-Wno-frame-address
+-mlongcalls
+-fno-builtin-memcpy
+-fno-builtin-memset
+-fno-builtin-bzero
+"-specs=/Users/tanwat/ IoT-App-2569/091-Week-03-Sensors-and-calibration-II/ESP32_LAB/LDR_Calibration/build/specs/picolibc.specs"

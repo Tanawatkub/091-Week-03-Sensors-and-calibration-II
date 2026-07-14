@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/tanwat/ IoT-App-2569/091-Week-03-Sensors-and-calibration-II/ESP32_LAB/LDR_Calibration/build/CMakeFiles/bootloader
+/Users/tanwat/ IoT-App-2569/091-Week-03-Sensors-and-calibration-II/ESP32_LAB/LDR_Calibration/build/CMakeFiles/bootloader.rule
+/Users/tanwat/ IoT-App-2569/091-Week-03-Sensors-and-calibration-II/ESP32_LAB/LDR_Calibration/build/CMakeFiles/bootloader-complete.rule
+/Users/tanwat/ IoT-App-2569/091-Week-03-Sensors-and-calibration-II/ESP32_LAB/LDR_Calibration/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/tanwat/ IoT-App-2569/091-Week-03-Sensors-and-calibration-II/ESP32_LAB/LDR_Calibration/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/tanwat/ IoT-App-2569/091-Week-03-Sensors-and-calibration-II/ESP32_LAB/LDR_Calibration/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/tanwat/ IoT-App-2569/091-Week-03-Sensors-and-calibration-II/ESP32_LAB/LDR_Calibration/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/tanwat/ IoT-App-2569/091-Week-03-Sensors-and-calibration-II/ESP32_LAB/LDR_Calibration/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/tanwat/ IoT-App-2569/091-Week-03-Sensors-and-calibration-II/ESP32_LAB/LDR_Calibration/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/tanwat/ IoT-App-2569/091-Week-03-Sensors-and-calibration-II/ESP32_LAB/LDR_Calibration/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

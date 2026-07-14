@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/tanwat/ IoT-App-2569/091-Week-03-Sensors-and-calibration-II/ESP32_LAB/LDR_Calibration/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/Users/tanwat/ IoT-App-2569/091-Week-03-Sensors-and-calibration-II/ESP32_LAB/LDR_Calibration/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/Users/tanwat/ IoT-App-2569/091-Week-03-Sensors-and-calibration-II/ESP32_LAB/LDR_Calibration/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/Users/tanwat/ IoT-App-2569/091-Week-03-Sensors-and-calibration-II/ESP32_LAB/LDR_Calibration/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "/Users/tanwat/ IoT-App-2569/091-Week-03-Sensors-and-calibration-II/ESP32_LAB/LDR_Calibration/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/Users/tanwat/ IoT-App-2569/091-Week-03-Sensors-and-calibration-II/ESP32_LAB/LDR_Calibration/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/Users/tanwat/ IoT-App-2569/091-Week-03-Sensors-and-calibration-II/ESP32_LAB/LDR_Calibration/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/Users/tanwat/ IoT-App-2569/091-Week-03-Sensors-and-calibration-II/ESP32_LAB/LDR_Calibration/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/Users/tanwat/ IoT-App-2569/091-Week-03-Sensors-and-calibration-II/ESP32_LAB/LDR_Calibration/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/Users/tanwat/ IoT-App-2569/091-Week-03-Sensors-and-calibration-II/ESP32_LAB/LDR_Calibration/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

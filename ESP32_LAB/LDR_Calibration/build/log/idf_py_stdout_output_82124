@@ -1,0 +1,297 @@
+Command: /Users/tanwat/.espressif/python_env/idf6.0_py3.14_env/bin/python /Users/tanwat/.espressif/v6.0.2/esp-idf/tools/idf_monitor.py -p /dev/cu.usbserial-0001 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /Users/tanwat/ IoT-App-2569/091-Week-03-Sensors-and-calibration-II/ESP32_LAB/LDR_Calibration/build/LDR_Calibration.elf /Users/tanwat/ IoT-App-2569/091-Week-03-Sensors-and-calibration-II/ESP32_LAB/LDR_Calibration/build/bootloader/bootloader.elf -m '/Users/tanwat/.espressif/python_env/idf6.0_py3.14_env/bin/python' '/Users/tanwat/.espressif/v6.0.2/esp-idf/tools/idf.py'
+heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+[0;32mI (237) heap_init: At 4008AC0C len 000153F4 (84 KiB): IRAM[0m
+[0;32mI (244) spi_flash: detected chip: generic[0m
+[0;32mI (246) spi_flash: flash io: dio[0m
+[0;33mW (249) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (263) main_task: Started on CPU0[0m
+[0;32mI (263) main_�ets Jul 29 2019 12:21:46[0m
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0040,len:6272
+load:0x40078000,len:15820
+load:0x40080400,len:3920
+entry 0x40080644
+[0;32mI (27) boot: ESP-IDF v6.0.2 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Jul 14 2026 11:18:38[0m
+[0;32mI (28) boot: Multicore bootloader[0m
+[0;32mI (29) boot: chip revision: v3.1[0m
+[0;32mI (32) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (35) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (42) boot: Enabling RNG early entropy source...[0m
+[0;32mI (47) boot: Partition Table:[0m
+[0;32mI (49) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (62) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (69) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (75) boot: End of partition table[0m
+[0;32mI (79) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09230h ( 37424) map[0m
+[0;32mI (100) esp_image: segment 1: paddr=00019258 vaddr=3ffb0000 size=02a2ch ( 10796) load[0m
+[0;32mI (104) esp_image: segment 2: paddr=0001bc8c vaddr=40080000 size=0438ch ( 17292) load[0m
+[0;32mI (111) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=0e1ech ( 57836) map[0m
+[0;32mI (132) esp_image: segment 4: paddr=0002e214 vaddr=4008438c size=06880h ( 26752) load[0m
+[0;32mI (144) esp_image: segment 5: paddr=00034a9c vaddr=50000000 size=00028h (    40) load[0m
+[0;32mI (149) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (150) boot: Disabling RNG early entropy source...[0m
+[0;32mI (162) cpu_start: Multicore app[0m
+[0;32mI (170) cpu_start: GPIO 3 and 1 are used as console UART I/O pins[0m
+[0;32mI (170) cpu_start: Pro cpu start user code[0m
+[0;32mI (170) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (172) app_init: Application information:[0m
+[0;32mI (176) app_init: Project name:     LDR_Calibration[0m
+[0;32mI (180) app_init: App version:      24c34c7-dirty[0m
+[0;32mI (185) app_init: Compile time:     Jul 14 2026 11:16:26[0m
+[0;32mI (190) app_init: ELF file SHA256:  137fb771b...[0m
+[0;32mI (194) app_init: ESP-IDF:          v6.0.2[0m
+[0;32mI (198) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (202) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (206) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (210) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (216) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (221) heap_init: At 3FFB3408 len 0002CBF8 (178 KiB): DRAM[0m
+[0;32mI (226) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (232) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (237) heap_init: At 4008AC0C len 000153F4 (84 KiB): IRAM[0m
+[0;32mI (244) spi_flash: detected chip: generic[0m
+[0;32mI (246) spi_flash: flash io: dio[0m
+[0;33mW (249) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (263) main_task: Started on CPU0[0m
+[0;32mI (263) main_task: Calling app_main()[0m
+[0;32mI (263) LDR_CAL: ADC Calibration Success[0m
+[0;32mI (263) LDR_CAL: ADC Raw = 2745 | Voltage = 2325 mV | Lux (calibrated) = 1102.90[0m
+[0;32mI (773) LDR_CAL: ADC Raw = 2752 | Voltage = 2331 mV | Lux (calibrated) = 1105.84[0m
+[0;32mI (1273) LDR_CAL: ADC Raw = 2750 | Voltage = 2329 mV | Lux (calibrated) = 1105.00[0m
+[0;32mI (1773) LDR_CAL: ADC Raw = 2736 | Voltage = 2318 mV | Lux (calibrated) = 1099.12[0m
+[0;32mI (2273) LDR_CAL: ADC Raw = 2726 | Voltage = 2310 mV | Lux (calibrated) = 1094.92[0m
+[0;32mI (2773) LDR_CAL: ADC Raw = 2729 | Voltage = 2313 mV | Lux (calibrated) = 1096.18[0m
+[0;32mI (3273) LDR_CAL: ADC Raw = 2721 | Voltage = 2306 mV | Lux (calibrated) = 1092.82[0m
+[0;32mI (3773) LDR_CAL: ADC Raw = 2626 | Voltage = 2231 mV | Lux (calibrated) = 1052.92[0m
+[0;32mI (4273) LDR_CAL: ADC Raw = 2224 | Voltage = 1911 mV | Lux (calibrated) = 884.08[0m
+[0;32mI (4773) LDR_CAL: ADC Raw = 2203 | Voltage = 1894 mV | Lux (calibrated) = 875.26[0m
+[0;32mI (5273) LDR_CAL: ADC Raw = 2513 | Voltage = 2141 mV | Lux (calibrated) = 1005.46[0m
+[0;32mI (5773) LDR_CAL: ADC Raw = 2546 | Voltage = 2167 mV | Lux (calibrated) = 1019.32[0m
+[0;32mI (6273) LDR_CAL: ADC Raw = 2559 | Voltage = 2177 mV | Lux (calibrated) = 1024.78[0m
+[0;32mI (6773) LDR_CAL: ADC Raw = 2559 | Voltage = 2177 mV | Lux (calibrated) = 1024.78[0m
+[0;32mI (7273) LDR_CAL: ADC Raw = 2559 | Voltage = 2177 mV | Lux (calibrated) = 1024.78[0m
+[0;32mI (7773) LDR_CAL: ADC Raw = 2558 | Voltage = 2177 mV | Lux (calibrated) = 1024.36[0m
+[0;32mI (8273) LDR_CAL: ADC Raw = 2533 | Voltage = 2157 mV | Lux (calibrated) = 1013.86[0m
+[0;32mI (8773) LDR_CAL: ADC Raw = 2533 | Voltage = 2157 mV | Lux (calibrated) = 1013.86[0m
+[0;32mI (9273) LDR_CAL: ADC Raw = 2533 | Voltage = 2157 mV | Lux (calibrated) = 1013.86[0m
+[0;32mI (9773) LDR_CAL: ADC Raw = 2544 | Voltage = 2165 mV | Lux (calibrated) = 1018.48[0m
+[0;32mI (10273) LDR_CAL: ADC Raw = 2544 | Voltage = 2165 mV | Lux (calibrated) = 1018.48[0m
+[0;32mI (10773) LDR_CAL: ADC Raw = 2544 | Voltage = 2165 mV | Lux (calibrated) = 1018.48[0m
+[0;32mI (11273) LDR_CAL: ADC Raw = 2555 | Voltage = 2174 mV | Lux (calibrated) = 1023.10[0m
+[0;32mI (11773) LDR_CAL: ADC Raw = 2544 | Voltage = 2165 mV | Lux (calibrated) = 1018.48[0m
+[0;32mI (12273) LDR_CAL: ADC Raw = 2508 | Voltage = 2137 mV | Lux (calibrated) = 1003.36[0m
+[0;32mI (12773) LDR_CAL: ADC Raw = 2522 | Voltage = 2148 mV | Lux (calibrated) = 1009.24[0m
+[0;32mI (13273) LDR_CAL: ADC Raw = 2544 | Voltage = 2165 mV | Lux (calibrated) = 1018.48[0m
+[0;32mI (13773) LDR_CAL: ADC Raw = 2553 | Voltage = 2173 mV | Lux (calibrated) = 1022.26[0m
+[0;32mI (14273) LDR_CAL: ADC Raw = 2505 | Voltage = 2134 mV | Lux (calibrated) = 1002.10[0m
+[0;32mI (14773) LDR_CAL: ADC Raw = 2462 | Voltage = 2100 mV | Lux (calibrated) = 984.04[0m
+[0;32mI (15273) LDR_CAL: ADC Raw = 2481 | Voltage = 2115 mV | Lux (calibrated) = 992.02[0m
+[0;32mI (15773) LDR_CAL: ADC Raw = 2469 | Voltage = 2106 mV | Lux (calibrated) = 986.98[0m
+[0;32mI (16273) LDR_CAL: ADC Raw = 2477 | Voltage = 2112 mV | Lux (calibrated) = 990.34[0m
+[0;32mI (16773) LDR_CAL: ADC Raw = 2481 | Voltage = 2115 mV | Lux (calibrated) = 992.02[0m
+[0;32mI (17273) LDR_CAL: ADC Raw = 2485 | Voltage = 2119 mV | Lux (calibrated) = 993.70[0m
+[0;32mI (17773) LDR_CAL: ADC Raw = 2535 | Voltage = 2158 mV | Lux (calibrated) = 1014.70[0m
+[0;32mI (18273) LDR_CAL: ADC Raw = 2623 | Voltage = 2228 mV | Lux (calibrated) = 1051.66[0m
+[0;32mI (18773) LDR_CAL: ADC Raw = 2698 | Voltage = 2288 mV | Lux (calibrated) = 1083.16[0m
+[0;32mI (19273) LDR_CAL: ADC Raw = 2692 | Voltage = 2283 mV | Lux (calibrated) = 1080.64[0m
+[0;32mI (19773) LDR_CAL: ADC Raw = 2637 | Voltage = 2239 mV | Lux (calibrated) = 1057.54[0m
+[0;32mI (20273) LDR_CAL: ADC Raw = 2635 | Voltage = 2238 mV | Lux (calibrated) = 1056.70[0m
+[0;32mI (20773) LDR_CAL: ADC Raw = 2698 | Voltage = 2288 mV | Lux (calibrated) = 1083.16[0m
+[0;32mI (21273) LDR_CAL: ADC Raw = 2720 | Voltage = 2305 mV | Lux (calibrated) = 1092.40[0m
+[0;32mI (21773) LDR_CAL: ADC Raw = 2719 | Voltage = 2305 mV | Lux (calibrated) = 1091.98[0m
+[0;32mI (22273) LDR_CAL: ADC Raw = 2702 | Voltage = 2291 mV | Lux (calibrated) = 1084.84[0m
+[0;32mI (22773) LDR_CAL: ADC Raw = 2703 | Voltage = 2292 mV | Lux (calibrated) = 1085.26[0m
+[0;32mI (23273) LDR_CAL: ADC Raw = 2714 | Voltage = 2301 mV | Lux (calibrated) = 1089.88[0m
+[0;32mI (23773) LDR_CAL: ADC Raw = 2714 | Voltage = 2301 mV | Lux (calibrated) = 1089.88[0m
+[0;32mI (24273) LDR_CAL: ADC Raw = 2679 | Voltage = 2273 mV | Lux (calibrated) = 1075.18[0m
+[0;32mI (24773) LDR_CAL: ADC Raw = 2645 | Voltage = 2246 mV | Lux (calibrated) = 1060.90[0m
+[0;32mI (25273) LDR_CAL: ADC Raw = 2676 | Voltage = 2270 mV | Lux (calibrated) = 1073.92[0m
+[0;32mI (25773) LDR_CAL: ADC Raw = 2673 | Voltage = 2268 mV | Lux (calibrated) = 1072.66[0m
+[0;32mI (26273) LDR_CAL: ADC Raw = 2632 | Voltage = 2235 mV | Lux (calibrated) = 1055.44[0m
+[0;32mI (26773) LDR_CAL: ADC Raw = 2663 | Voltage = 2260 mV | Lux (calibrated) = 1068.46[0m
+[0;32mI (27273) LDR_CAL: ADC Raw = 2683 | Voltage = 2276 mV | Lux (calibrated) = 1076.86[0m
+[0;32mI (27773) LDR_CAL: ADC Raw = 2672 | Voltage = 2267 mV | Lux (calibrated) = 1072.24[0m
+[0;32mI (28273) LDR_CAL: ADC Raw = 2613 | Voltage = 2220 mV | Lux (calibrated) = 1047.46[0m
+[0;32mI (28773) LDR_CAL: ADC Raw = 2634 | Voltage = 2237 mV | Lux (calibrated) = 1056.28[0m
+[0;32mI (29273) LDR_CAL: ADC Raw = 2685 | Voltage = 2278 mV | Lux (calibrated) = 1077.70[0m
+[0;32mI (29773) LDR_CAL: ADC Raw = 2624 | Voltage = 2229 mV | Lux (calibrated) = 1052.08[0m
+[0;32mI (30273) LDR_CAL: ADC Raw = 2636 | Voltage = 2239 mV | Lux (calibrated) = 1057.12[0m
+[0;32mI (30773) LDR_CAL: ADC Raw = 2640 | Voltage = 2242 mV | Lux (calibrated) = 1058.80[0m
+[0;32mI (31273) LDR_CAL: ADC Raw = 2637 | Voltage = 2239 mV | Lux (calibrated) = 1057.54[0m
+[0;32mI (31773) LDR_CAL: ADC Raw = 2330 | Voltage = 1995 mV | Lux (calibrated) = 928.60[0m
+[0;32mI (32273) LDR_CAL: ADC Raw = 2387 | Voltage = 2041 mV | Lux (calibrated) = 952.54[0m
+[0;32mI (32773) LDR_CAL: ADC Raw = 2403 | Voltage = 2053 mV | Lux (calibrated) = 959.26[0m
+[0;32mI (33273) LDR_CAL: ADC Raw = 2496 | Voltage = 2127 mV | Lux (calibrated) = 998.32[0m
+[0;32mI (33773) LDR_CAL: ADC Raw = 2533 | Voltage = 2157 mV | Lux (calibrated) = 1013.86[0m
+[0;32mI (34273) LDR_CAL: ADC Raw = 2546 | Voltage = 2167 mV | Lux (calibrated) = 1019.32[0m
+[0;32mI (34773) LDR_CAL: ADC Raw = 2544 | Voltage = 2165 mV | Lux (calibrated) = 1018.48[0m
+[0;32mI (35273) LDR_CAL: ADC Raw = 2545 | Voltage = 2166 mV | Lux (calibrated) = 1018.90[0m
+[0;32mI (35773) LDR_CAL: ADC Raw = 2549 | Voltage = 2169 mV | Lux (calibrated) = 1020.58[0m
+[0;32mI (36273) LDR_CAL: ADC Raw = 2551 | Voltage = 2171 mV | Lux (calibrated) = 1021.42[0m
+[0;32mI (36773) LDR_CAL: ADC Raw = 2550 | Voltage = 2170 mV | Lux (calibrated) = 1021.00[0m
+[0;32mI (37273) LDR_CAL: ADC Raw = 2547 | Voltage = 2168 mV | Lux (calibrated) = 1019.74[0m
+[0;32mI (37773) LDR_CAL: ADC Raw = 2476 | Voltage = 2111 mV | Lux (calibrated) = 989.92[0m
+[0;32mI (38273) LDR_CAL: ADC Raw = 2479 | Voltage = 2114 mV | Lux (calibrated) = 991.18[0m
+[0;32mI (38773) LDR_CAL: ADC Raw = 2453 | Voltage = 2093 mV | Lux (calibrated) = 980.26[0m
+[0;32mI (39273) LDR_CAL: ADC Raw = 2431 | Voltage = 2076 mV | Lux (calibrated) = 971.02[0m
+[0;32mI (39773) LDR_CAL: ADC Raw = 2433 | Voltage = 2077 mV | Lux (calibrated) = 971.86[0m
+[0;32mI (40273) LDR_CAL: ADC Raw = 2428 | Voltage = 2073 mV | Lux (calibrated) = 969.76[0m
+[0;32mI (40773) LDR_CAL: ADC Raw = 2423 | Voltage = 2069 mV | Lux (calibrated) = 967.66[0m
+[0;32mI (41273) LDR_CAL: ADC Raw = 2422 | Voltage = 2068 mV | Lux (calibrated) = 967.24[0m
+[0;32mI (41773) LDR_CAL: ADC Raw = 2416 | Voltage = 2064 mV | Lux (calibrated) = 964.72[0m
+[0;32mI (42273) LDR_CAL: ADC Raw = 2399 | Voltage = 2050 mV | Lux (calibrated) = 957.58[0m
+[0;32mI (42773) LDR_CAL: ADC Raw = 2403 | Voltage = 2053 mV | Lux (calibrated) = 959.26[0m
+[0;32mI (43273) LDR_CAL: ADC Raw = 2445 | Voltage = 2087 mV | Lux (calibrated) = 976.90[0m
+[0;32mI (43773) LDR_CAL: ADC Raw = 2448 | Voltage = 2089 mV | Lux (calibrated) = 978.16[0m
+[0;32mI (44273) LDR_CAL: ADC Raw = 2481 | Voltage = 2115 mV | Lux (calibrated) = 992.02[0m
+[0;32mI (44773) LDR_CAL: ADC Raw = 2466 | Voltage = 2103 mV | Lux (calibrated) = 985.72[0m
+[0;32mI (45273) LDR_CAL: ADC Raw = 2490 | Voltage = 2122 mV | Lux (calibrated) = 995.80[0m
+[0;32mI (45773) LDR_CAL: ADC Raw = 2483 | Voltage = 2117 mV | Lux (calibrated) = 992.86[0m
+[0;32mI (46273) LDR_CAL: ADC Raw = 2493 | Voltage = 2125 mV | Lux (calibrated) = 997.06[0m
+[0;32mI (46773) LDR_CAL: ADC Raw = 2494 | Voltage = 2126 mV | Lux (calibrated) = 997.48[0m
+[0;32mI (47273) LDR_CAL: ADC Raw = 2486 | Voltage = 2119 mV | Lux (calibrated) = 994.12[0m
+[0;32mI (47773) LDR_CAL: ADC Raw = 2405 | Voltage = 2055 mV | Lux (calibrated) = 960.10[0m
+[0;32mI (48273) LDR_CAL: ADC Raw = 2400 | Voltage = 2051 mV | Lux (calibrated) = 958.00[0m
+[0;32mI (48773) LDR_CAL: ADC Raw = 2410 | Voltage = 2059 mV | Lux (calibrated) = 962.20[0m
+[0;32mI (49273) LDR_CAL: ADC Raw = 2405 | Voltage = 2055 mV | Lux (calibrated) = 960.10[0m
+[0;32mI (49773) LDR_CAL: ADC Raw = 2410 | Voltage = 2059 mV | Lux (calibrated) = 962.20[0m
+[0;32mI (50273) LDR_CAL: ADC Raw = 2429 | Voltage = 2074 mV | Lux (calibrated) = 970.18[0m
+[0;32mI (50773) LDR_CAL: ADC Raw = 2432 | Voltage = 2076 mV | Lux (calibrated) = 971.44[0m
+[0;32mI (51273) LDR_CAL: ADC Raw = 2432 | Voltage = 2076 mV | Lux (calibrated) = 971.44[0m
+[0;32mI (51773) LDR_CAL: ADC Raw = 2430 | Voltage = 2075 mV | Lux (calibrated) = 970.60[0m
+[0;32mI (52273) LDR_CAL: ADC Raw = 2438 | Voltage = 2081 mV | Lux (calibrated) = 973.96[0m
+[0;32mI (52773) LDR_CAL: ADC Raw = 2516 | Voltage = 2143 mV | Lux (calibrated) = 1006.72[0m
+[0;32mI (53273) LDR_CAL: ADC Raw = 2544 | Voltage = 2165 mV | Lux (calibrated) = 1018.48[0m
+[0;32mI (53773) LDR_CAL: ADC Raw = 2536 | Voltage = 2159 mV | Lux (calibrated) = 1015.12[0m
+[0;32mI (54273) LDR_CAL: ADC Raw = 2537 | Voltage = 2160 mV | Lux (calibrated) = 1015.54[0m
+[0;32mI (54773) LDR_CAL: ADC Raw = 2533 | Voltage = 2157 mV | Lux (calibrated) = 1013.86[0m
+[0;32mI (55273) LDR_CAL: ADC Raw = 2548 | Voltage = 2169 mV | Lux (calibrated) = 1020.16[0m
+[0;32mI (55773) LDR_CAL: ADC Raw = 2559 | Voltage = 2177 mV | Lux (calibrated) = 1024.78[0m
+[0;32mI (56273) LDR_CAL: ADC Raw = 2559 | Voltage = 2177 mV | Lux (calibrated) = 1024.78[0m
+[0;32mI (56773) LDR_CAL: ADC Raw = 2559 | Voltage = 2177 mV | Lux (calibrated) = 1024.78[0m
+[0;32mI (57273) LDR_CAL: ADC Raw = 2551 | Voltage = 2171 mV | Lux (calibrated) = 1021.42[0m
+[0;32mI (57773) LDR_CAL: ADC Raw = 2555 | Voltage = 2174 mV | Lux (calibrated) = 1023.10[0m
+[0;32mI (58273) LDR_CAL: ADC Raw = 2555 | Voltage = 2174 mV | Lux (calibrated) = 1023.10[0m
+[0;32mI (58773) LDR_CAL: ADC Raw = 2558 | Voltage = 2177 mV | Lux (calibrated) = 1024.36[0m
+[0;32mI (59273) LDR_CAL: ADC Raw = 2559 | Voltage = 2177 mV | Lux (calibrated) = 1024.78[0m
+[0;32mI (59773) LDR_CAL: ADC Raw = 2578 | Voltage = 2192 mV | Lux (calibrated) = 1032.76[0m
+[0;32mI (60273) LDR_CAL: ADC Raw = 2580 | Voltage = 2194 mV | Lux (calibrated) = 1033.60[0m
+[0;32mI (60773) LDR_CAL: ADC Raw = 2559 | Voltage = 2177 mV | Lux (calibrated) = 1024.78[0m
+[0;32mI (61273) LDR_CAL: ADC Raw = 2533 | Voltage = 2157 mV | Lux (calibrated) = 1013.86[0m
+[0;32mI (61773) LDR_CAL: ADC Raw = 2544 | Voltage = 2165 mV | Lux (calibrated) = 1018.48[0m
+[0;32mI (62273) LDR_CAL: ADC Raw = 2544 | Voltage = 2165 mV | Lux (calibrated) = 1018.48[0m
+[0;32mI (62773) LDR_CAL: ADC Raw = 2546 | Voltage = 2167 mV | Lux (calibrated) = 1019.32[0m
+[0;32mI (63273) LDR_CAL: ADC Raw = 2556 | Voltage = 2175 mV | Lux (calibrated) = 1023.52[0m
+[0;32mI (63773) LDR_CAL: ADC Raw = 2559 | Voltage = 2177 mV | Lux (calibrated) = 1024.78[0m
+[0;32mI (64273) LDR_CAL: ADC Raw = 2559 | Voltage = 2177 mV | Lux (calibrated) = 1024.78[0m
+[0;32mI (64773) LDR_CAL: ADC Raw = 2559 | Voltage = 2177 mV | Lux (calibrated) = 1024.78[0m
+[0;32mI (65273) LDR_CAL: ADC Raw = 2559 | Voltage = 2177 mV | Lux (calibrated) = 1024.78[0m
+[0;32mI (65773) LDR_CAL: ADC Raw = 2559 | Voltage = 2177 mV | Lux (calibrated) = 1024.78[0m
+[0;32mI (66273) LDR_CAL: ADC Raw = 2559 | Voltage = 2177 mV | Lux (calibrated) = 1024.78[0m
+[0;32mI (66773) LDR_CAL: ADC Raw = 2512 | Voltage = 2140 mV | Lux (calibrated) = 1005.04[0m
+[0;32mI (67273) LDR_CAL: ADC Raw = 2469 | Voltage = 2106 mV | Lux (calibrated) = 986.98[0m
+[0;32mI (67773) LDR_CAL: ADC Raw = 2445 | Voltage = 2087 mV | Lux (calibrated) = 976.90[0m
+[0;32mI (68273) LDR_CAL: ADC Raw = 2431 | Voltage = 2076 mV | Lux (calibrated) = 971.02[0m
+[0;32mI (68773) LDR_CAL: ADC Raw = 2416 | Voltage = 2064 mV | Lux (calibrated) = 964.72[0m
+[0;32mI (69273) LDR_CAL: ADC Raw = 2445 | Voltage = 2087 mV | Lux (calibrated) = 976.90[0m
+[0;32mI (69773) LDR_CAL: ADC Raw = 2438 | Voltage = 2081 mV | Lux (calibrated) = 973.96[0m
+[0;32mI (70273) LDR_CAL: ADC Raw = 2485 | Voltage = 2119 mV | Lux (calibrated) = 993.70[0m
+[0;32mI (70773) LDR_CAL: ADC Raw = 2494 | Voltage = 2126 mV | Lux (calibrated) = 997.48[0m
+[0;32mI (71273) LDR_CAL: ADC Raw = 2498 | Voltage = 2129 mV | Lux (calibrated) = 999.16[0m
+[0;32mI (71773) LDR_CAL: ADC Raw = 2499 | Voltage = 2130 mV | Lux (calibrated) = 999.58[0m
+[0;32mI (72273) LDR_CAL: ADC Raw = 2491 | Voltage = 2123 mV | Lux (calibrated) = 996.22[0m
+[0;32mI (72773) LDR_CAL: ADC Raw = 2487 | Voltage = 2120 mV | Lux (calibrated) = 994.54[0m
+[0;32mI (73273) LDR_CAL: ADC Raw = 2485 | Voltage = 2119 mV | Lux (calibrated) = 993.70[0m
+[0;32mI (73773) LDR_CAL: ADC Raw = 2480 | Voltage = 2115 mV | Lux (calibrated) = 991.60[0m
+[0;32mI (74273) LDR_CAL: ADC Raw = 2482 | Voltage = 2116 mV | Lux (calibrated) = 992.44[0m
+[0;32mI (74773) LDR_CAL: ADC Raw = 2498 | Voltage = 2129 mV | Lux (calibrated) = 999.16[0m
+[0;32mI (75273) LDR_CAL: ADC Raw = 2510 | Voltage = 2138 mV | Lux (calibrated) = 1004.20[0m
+[0;32mI (75773) LDR_CAL: ADC Raw = 2507 | Voltage = 2136 mV | Lux (calibrated) = 1002.94[0m
+[0;32mI (76273) LDR_CAL: ADC Raw = 2503 | Voltage = 2133 mV | Lux (calibrated) = 1001.26[0m
+[0;32mI (76773) LDR_CAL: ADC Raw = 2508 | Voltage = 2137 mV | Lux (calibrated) = 1003.36[0m
+[0;32mI (77273) LDR_CAL: ADC Raw = 2512 | Voltage = 2140 mV | Lux (calibrated) = 1005.04[0m
+[0;32mI (77773) LDR_CAL: ADC Raw = 2513 | Voltage = 2141 mV | Lux (calibrated) = 1005.46[0m
+[0;32mI (78273) LDR_CAL: ADC Raw = 2512 | Voltage = 2140 mV | Lux (calibrated) = 1005.04[0m
+[0;32mI (78773) LDR_CAL: ADC Raw = 2509 | Voltage = 2138 mV | Lux (calibrated) = 1003.78[0m
+[0;32mI (79273) LDR_CAL: ADC Raw = 2465 | Voltage = 2103 mV | Lux (calibrated) = 985.30[0m
+[0;32mI (79773) LDR_CAL: ADC Raw = 2466 | Voltage = 2103 mV | Lux (calibrated) = 985.72[0m
+[0;32mI (80273) LDR_CAL: ADC Raw = 2465 | Voltage = 2103 mV | Lux (calibrated) = 985.30[0m
+[0;32mI (80773) LDR_CAL: ADC Raw = 2493 | Voltage = 2125 mV | Lux (calibrated) = 997.06[0m
+[0;32mI (81273) LDR_CAL: ADC Raw = 2511 | Voltage = 2139 mV | Lux (calibrated) = 1004.62[0m
+[0;32mI (81773) LDR_CAL: ADC Raw = 2512 | Voltage = 2140 mV | Lux (calibrated) = 1005.04[0m
+[0;32mI (82273) LDR_CAL: ADC Raw = 2519 | Voltage = 2146 mV | Lux (calibrated) = 1007.98[0m
+[0;32mI (82773) LDR_CAL: ADC Raw = 2521 | Voltage = 2147 mV | Lux (calibrated) = 1008.82[0m
+[0;32mI (83273) LDR_CAL: ADC Raw = 2540 | Voltage = 2162 mV | Lux (calibrated) = 1016.80[0m
+[0;32mI (83773) LDR_CAL: ADC Raw = 2533 | Voltage = 2157 mV | Lux (calibrated) = 1013.86[0m
+[0;32mI (84273) LDR_CAL: ADC Raw = 2520 | Voltage = 2146 mV | Lux (calibrated) = 1008.40[0m
+[0;32mI (84773) LDR_CAL: ADC Raw = 2511 | Voltage = 2139 mV | Lux (calibrated) = 1004.62[0m
+[0;32mI (85273) LDR_CAL: ADC Raw = 2503 | Voltage = 2133 mV | Lux (calibrated) = 1001.26[0m
+[0;32mI (85773) LDR_CAL: ADC Raw = 2497 | Voltage = 2128 mV | Lux (calibrated) = 998.74[0m
+[0;32mI (86273) LDR_CAL: ADC Raw = 2468 | Voltage = 2105 mV | Lux (calibrated) = 986.56[0m
+[0;32mI (86773) LDR_CAL: ADC Raw = 2483 | Voltage = 2117 mV | Lux (calibrated) = 992.86[0m
+[0;32mI (87273) LDR_CAL: ADC Raw = 2486 | Voltage = 2119 mV | Lux (calibrated) = 994.12[0m
+[0;32mI (87773) LDR_CAL: ADC Raw = 2482 | Voltage = 2116 mV | Lux (calibrated) = 992.44[0m
+[0;32mI (88273) LDR_CAL: ADC Raw = 2491 | Voltage = 2123 mV | Lux (calibrated) = 996.22[0m
+[0;32mI (88773) LDR_CAL: ADC Raw = 2495 | Voltage = 2126 mV | Lux (calibrated) = 997.90[0m
+[0;32mI (89273) LDR_CAL: ADC Raw = 2494 | Voltage = 2126 mV | Lux (calibrated) = 997.48[0m
+[0;32mI (89773) LDR_CAL: ADC Raw = 2493 | Voltage = 2125 mV | Lux (calibrated) = 997.06[0m
+[0;32mI (90273) LDR_CAL: ADC Raw = 2497 | Voltage = 2128 mV | Lux (calibrated) = 998.74[0m
+[0;32mI (90773) LDR_CAL: ADC Raw = 2498 | Voltage = 2129 mV | Lux (calibrated) = 999.16[0m
+[0;32mI (91273) LDR_CAL: ADC Raw = 2502 | Voltage = 2132 mV | Lux (calibrated) = 1000.84[0m
+[0;32mI (91773) LDR_CAL: ADC Raw = 2497 | Voltage = 2128 mV | Lux (calibrated) = 998.74[0m
+[0;32mI (92273) LDR_CAL: ADC Raw = 2529 | Voltage = 2154 mV | Lux (calibrated) = 1012.18[0m
+[0;32mI (92773) LDR_CAL: ADC Raw = 2527 | Voltage = 2152 mV | Lux (calibrated) = 1011.34[0m
+[0;32mI (93273) LDR_CAL: ADC Raw = 2501 | Voltage = 2131 mV | Lux (calibrated) = 1000.42[0m
+[0;32mI (93773) LDR_CAL: ADC Raw = 2507 | Voltage = 2136 mV | Lux (calibrated) = 1002.94[0m
+[0;32mI (94273) LDR_CAL: ADC Raw = 2512 | Voltage = 2140 mV | Lux (calibrated) = 1005.04[0m
+[0;32mI (94773) LDR_CAL: ADC Raw = 2518 | Voltage = 2145 mV | Lux (calibrated) = 1007.56[0m
+[0;32mI (95273) LDR_CAL: ADC Raw = 2533 | Voltage = 2157 mV | Lux (calibrated) = 1013.86[0m
+[0;32mI (95773) LDR_CAL: ADC Raw = 2531 | Voltage = 2155 mV | Lux (calibrated) = 1013.02[0m
+[0;32mI (96273) LDR_CAL: ADC Raw = 2514 | Voltage = 2142 mV | Lux (calibrated) = 1005.88[0m
+[0;32mI (96773) LDR_CAL: ADC Raw = 2512 | Voltage = 2140 mV | Lux (calibrated) = 1005.04[0m
+[0;32mI (97273) LDR_CAL: ADC Raw = 2521 | Voltage = 2147 mV | Lux (calibrated) = 1008.82[0m
+[0;32mI (97773) LDR_CAL: ADC Raw = 2529 | Voltage = 2154 mV | Lux (calibrated) = 1012.18[0m
+[0;32mI (98273) LDR_CAL: ADC Raw = 2527 | Voltage = 2152 mV | Lux (calibrated) = 1011.34[0m
+[0;32mI (98773) LDR_CAL: ADC Raw = 2523 | Voltage = 2149 mV | Lux (calibrated) = 1009.66[0m
+[0;32mI (99273) LDR_CAL: ADC Raw = 2523 | Voltage = 2149 mV | Lux (calibrated) = 1009.66[0m
+[0;32mI (99773) LDR_CAL: ADC Raw = 2521 | Voltage = 2147 mV | Lux (calibrated) = 1008.82[0m
+[0;32mI (100273) LDR_CAL: ADC Raw = 2526 | Voltage = 2151 mV | Lux (calibrated) = 1010.92[0m
+[0;32mI (100773) LDR_CAL: ADC Raw = 2532 | Voltage = 2156 mV | Lux (calibrated) = 1013.44[0m
+[0;32mI (101273) LDR_CAL: ADC Raw = 2531 | Voltage = 2155 mV | Lux (calibrated) = 1013.02[0m
+[0;32mI (101773) LDR_CAL: ADC Raw = 2531 | Voltage = 2155 mV | Lux (calibrated) = 1013.02[0m
+[0;32mI (102273) LDR_CAL: ADC Raw = 2530 | Voltage = 2154 mV | Lux (calibrated) = 1012.60[0m
+[0;32mI (102773) LDR_CAL: ADC Raw = 2529 | Voltage = 2154 mV | Lux (calibrated) = 1012.18[0m
+[0;32mI (103273) LDR_CAL: ADC Raw = 2529 | Voltage = 2154 mV | Lux (calibrated) = 1012.18[0m
+[0;32mI (103773) LDR_CAL: ADC Raw = 2529 | Voltage = 2154 mV | Lux (calibrated) = 1012.18[0m
+[0;32mI (104273) LDR_CAL: ADC Raw = 2519 | Voltage = 2146 mV | Lux (calibrated) = 1007.98[0m
+[0;32mI (104773) LDR_CAL: ADC Raw = 2512 | Voltage = 2140 mV | Lux (calibrated) = 1005.04[0m
+[0;32mI (105273) LDR_CAL: ADC Raw = 2494 | Voltage = 2126 mV | Lux (calibrated) = 997.48[0m
+[0;32mI (105773) LDR_CAL: ADC Raw = 2437 | Voltage = 2080 mV | Lux (calibrated) = 973.54[0m
+[0;32mI (106273) LDR_CAL: ADC Raw = 2403 | Voltage = 2053 mV | Lux (calibrated) = 959.26[0m
+[0;32mI (106773) LDR_CAL: ADC Raw = 2419 | Voltage = 2066 mV | Lux (calibrated) = 965.98[0m
+[0;32mI (107273) LDR_CAL: ADC Raw = 2413 | Voltage = 2061 mV | Lux (calibrated) = 963.46[0m
+[0;32mI (107773) LDR_CAL: ADC Raw = 2400 | Voltage = 2051 mV | Lux (calibrated) = 958.00[0m
+[0;32mI (108273) LDR_CAL: ADC Raw = 2394 | Voltage = 2046 mV | Lux (calibrated) = 955.48[0m
+[0;32mI (108773) LDR_CAL: ADC Raw = 2391 | Voltage = 2044 mV | Lux (calibrated) = 954.22[0m
+[0;32mI (109273) LDR_CAL: ADC Raw = 2384 | Voltage = 2038 mV | Lux (calibrated) = 951.28[0m
+[0;32mI (109773) LDR_CAL: ADC Raw = 2385 | Voltage = 2039 mV | Lux (calibrated) = 951.70[0m
+[0;32mI (110273) LDR_CAL: ADC Raw = 2389 | Voltage = 2042 mV | Lux (calibrated) = 953.38[0m
+[0;32mI (110773) LDR_CAL: ADC Raw = 2399 | Voltage = 2050 mV | Lux (calibrated) = 957.58[0m
+[0;32mI (111273) LDR_CAL: ADC Raw = 2399 | Voltage = 2050 mV | Lux (calibrated) = 957.58[0m
+[0;32mI (111773) LDR_CAL: ADC Raw = 2395 | Voltage = 2047 mV | Lux (calibrated) = 955.90[0m
+[0;32mI (112273) LDR_CAL: ADC Raw = 2384 | Voltage = 2038 mV | Lux (calibrated) = 951.28[0m
+[0;32mI (112773) LDR_CAL: ADC Raw = 2390 | Voltage = 2043 mV | Lux (calibrated) = 953.80[0m
+[0;32mI (113273) LDR_CAL: ADC Raw = 2386 | Voltage = 2040 mV | Lux (calibrated) = 952.12[0m
+[0;32mI (113773) LDR_CAL: ADC Raw = 2387 | Voltage = 2041 mV | Lux (calibrated) = 952.54[0m
+[0;32mI (114273) LDR_CAL: ADC Raw = 2388 | Voltage = 2041 mV | Lux (calibrated) = 952.96[0m
+[0;32mI (114773) LDR_CAL: ADC Raw = 2384 | Voltage = 2038 mV | Lux (calibrated) = 951.28[0m
+[0;32mI (115273) LDR_CAL: ADC Raw = 2437 | Voltage = 2080 mV | Lux (calibrated) = 973.54[0m
+[0;32mI (115773) LDR_CAL: ADC Raw = 2559 | Voltage = 2177 mV | Lux (calibrated) = 1024.78[0m
+[0;32mI (116273) LDR_CAL: ADC Raw = 2375 | Voltage = 2031 mV | Lux (calibrated) = 947.50[0m
